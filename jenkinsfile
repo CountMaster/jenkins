@@ -7,7 +7,7 @@ pipeline {
                 echo 'Compilando el proyecto...'
             }
         }
-        
+         
         stage('Test') {
             steps {
                 echo 'Ejecutando pruebas...'
